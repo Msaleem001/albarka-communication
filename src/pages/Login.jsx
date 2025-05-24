@@ -16,7 +16,7 @@ const Login = () => {
         {/* Image Section */}
         <div className="md:w-1/2">
           <img
-            src="https://via.placeholder.com/600x400?text=Login+Image"
+            src="/login.svg"
             alt="Login Illustration"
             className="object-cover w-full h-64 md:h-full rounded-t-lg md:rounded-l-lg md:rounded-t-none"
           />
