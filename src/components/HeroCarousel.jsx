@@ -54,7 +54,7 @@ const HeroCarousel = () => {
                             <p className="text-lg mb-6 max-w-2xl">{slide.text}</p>
                             <Link
                                 to="/products"
-                                className="px-6 py-3 bg-green-500 hover:bg-green-600 font-medium rounded-lg transition"
+                                className="px-6 py-3 bg-orange-500 hover:bg-orange-600 font-medium rounded-lg transition"
                             >
                                 Explore Now
                             </Link>

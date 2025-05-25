@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
                 <p className="text-lg font-bold text-black mb-2">₦{product.price.toLocaleString()}</p>
 
                 <div className="flex justify-between items-center">
-                    <button className="p-2 rounded-lg bg-green-500 hover:bg-green-700 text-white">
+                    <button className="p-2 rounded-lg bg-orange-500 hover:bg-orange-600 text-white">
                         Contact Us
                     </button>
                 </div>

@@ -49,7 +49,7 @@ export default function Products() {
 
     return (
         <div className="px-4 py-16 bg-gray-200 min-h-screen">
-            <h2 className="text-3xl font-bold text-center text-green-500 mb-4 underline">Latest Products</h2>
+            <h2 className="text-3xl font-bold text-center text-orange-500 mb-4 underline">Latest Products</h2>
 
             <div className="max-w-md mx-auto mb-10 px-2">
                 <input
@@ -57,7 +57,7 @@ export default function Products() {
                     placeholder="Search for a product..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600"
+                    className="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-600"
                 />
             </div>
 
@@ -70,7 +70,7 @@ export default function Products() {
                     </div>
                     <div className="flex justify-center items-center my-6">
                         <Link to={'/products'}>
-                            <button className="bg-green-600 py-2 px-6 rounded-md text-white">View All Stock</button>
+                            <button className="bg-orange-500 py-2 px-6 rounded-md text-white">View All Stock</button>
                         </Link>
                     </div>
                 </>
