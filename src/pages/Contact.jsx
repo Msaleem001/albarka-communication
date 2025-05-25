@@ -11,7 +11,7 @@ const Contact = () => {
 
       <main className="flex-grow px-6 md:px-20 py-16">
         <motion.section
-          className="max-w-5xl mx-auto bg-white backdrop-blur-md bg-opacity-60 shadow-2xl rounded-2xl p-10"
+          className="max-w-5xl mx-auto bg  -white backdrop-blur-md bg-opacity-60 shadow-2xl rounded-2xl p-10"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
